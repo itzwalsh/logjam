@@ -1,5 +1,5 @@
 import Link from "next/link"
-import MaxWidthWrapper from "./components/MaxWidthWrapper"
+import MaxWidthWrapper from "../components/MaxWidthWrapper"
 import { ArrowRight } from "lucide-react"
 import { buttonVariants } from "@/components/ui/button"
 import Image from "next/image"
@@ -14,7 +14,7 @@ export default function Home() {
         </div>
         <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
           Chat with your personal{" "}
-          <span className="text-blue-600">music assistant</span>
+          <span className="text-orange-600">music assistant</span>
         </h1>
         <p className="mt-5 max-w-prose text-zinc-700 sm:text-xl">
           Logjam allows you to find new music based on your personal favorites,
@@ -94,7 +94,9 @@ export default function Home() {
         <ol className="my-8 space-y-4 pt-8 md:flex md:space-x-12 md:space-y-0">
           <li className="md:flex-1">
             <div className="flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4">
-              <span className="text-sm font-medium text-blue-600">Step 1</span>
+              <span className="text-sm font-medium text-orange-600">
+                Step 1
+              </span>
               <span className="text-xl font-semibold">
                 Sign up for an account
               </span>
@@ -102,7 +104,7 @@ export default function Home() {
                 Either starting out with a free plan or choose our{" "}
                 <Link
                   href="/pricing"
-                  className="text-blue-700 underline underline-offset-2"
+                  className="text-orange-700 underline underline-offset-2"
                 >
                   pro plan
                 </Link>
@@ -111,7 +113,9 @@ export default function Home() {
           </li>
           <li className="md:flex-1">
             <div className="flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4">
-              <span className="text-sm font-medium text-blue-600">Step 2</span>
+              <span className="text-sm font-medium text-orange-600">
+                Step 2
+              </span>
               <span className="text-xl font-semibold">
                 Upload an image of your favorite bands, playlists, or albums
               </span>
@@ -123,7 +127,9 @@ export default function Home() {
           </li>
           <li className="md:flex-1">
             <div className="flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4">
-              <span className="text-sm font-medium text-blue-600">Step 3</span>
+              <span className="text-sm font-medium text-orange-600">
+                Step 3
+              </span>
               <span className="text-xl font-semibold">
                 Start finding new suggestions
               </span>
